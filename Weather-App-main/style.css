@@ -1,0 +1,117 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('cool-background.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Weather container styles */
+  .weather {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 400px; /* Limit width for smaller screens */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+  }
+  
+  /* Temperature styles */
+  .weather1 {
+    font-size: 3rem;
+  }
+  
+  /* Location styles */
+  .weather2,
+  .weather3 {
+    text-align: center;
+  }
+  
+  .weather2 p {
+    font-size: 1.5rem;
+  }
+  
+  .weather3 span {
+    font-size: 1rem;
+  }
+  
+  /* Search container styles */
+  nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 25px black;
+    border-radius: 75px 75px 0 0;
+    background-color: rgba(180, 177, 177, 0.075);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center; /* Added to align items vertically */
+  }
+
+  /* Search form styles */
+  nav form {
+    width: 70%;
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  #search
+{
+    font-size: 1.1rem;
+    color:white;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 1rem 0;
+    border-bottom: 1px solid white;
+    width: 98%;
+
+}
+  nav form button {
+    background-color: rgb(89, 88, 88);
+    height: 35px;
+    width: 75px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    border: none;
+  }
+
+  /* Hover effect for search button */
+  nav form button:hover {
+    color: white;
+    background-color: #242323;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .weather {
+      width: 90%;
+    }
+  }
