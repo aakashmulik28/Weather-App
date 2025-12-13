@@ -1,6 +1,6 @@
 # Weather App ⛅🌍
 
-A responsive web application that provides real-time weather updates for any city worldwide. Built using **ASP.NET / Django (depending on your stack)** with modern **frontend technologies**, the app integrates with a weather API to deliver accurate forecasts in a clean, cinematic UI. This project demonstrates API integration, dynamic data rendering, and polished user experience design.
+A responsive web application that provides real-time weather updates for any city worldwide. Built using **Django (depending on your stack)** with modern **frontend technologies**, the app integrates with a weather API to deliver accurate forecasts in a clean, cinematic UI. This project demonstrates API integration, dynamic data rendering, and polished user experience design.
 
 ---
 
@@ -20,7 +20,7 @@ A responsive web application that provides real-time weather updates for any cit
 
 | Layer        | Technology              |
 |--------------|--------------------------|
-| Backend      | ASP.NET MVC (C#) or Django (Python) |
+| Backend      | Django (Python) |
 | Frontend     | HTML, CSS, JavaScript, Bootstrap/Tailwind |
 | API          | OpenWeatherMap API (or similar) |
 | Tools        | Visual Studio / VS Code, Git, GitHub |
